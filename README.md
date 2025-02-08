@@ -1,4 +1,3 @@
-Here’s the README.md file code for your project:
 
 # Outfit Recommendation API  
 
@@ -36,7 +35,7 @@ This project is a Flask-based API that analyzes a person's image to suggest a cu
    source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 3.	Install dependencies:
-
+    ```bash
     pip install -r requirements.txt
 
 4.	Download the YOLOv8 model:
