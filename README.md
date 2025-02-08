@@ -32,17 +32,13 @@ This project is a Flask-based API that analyzes a person's image to suggest a cu
 2.	Create and activate a virtual environment (optional but recommended):
    ```bash
    python -m venv venv  
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   source venv/bin/activate
 
 3.	Install dependencies:
     ```bash
     pip install -r requirements.txt
 
-4.	Download the YOLOv8 model:
-
-    wget https://github.com/ultralytics/assets/releases/download/v0.0.0/yolov8n.pt
-
-5.	Set up API keys:
+4.	Set up API keys:
 	•	Replace TOKEN with your Hugging Face token for Stable Diffusion.
 	•	Replace GOOGLE_API_KEY with your Google Gemini API key.
 
