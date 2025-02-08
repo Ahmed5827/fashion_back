@@ -26,19 +26,19 @@ This project is a Flask-based API that analyzes a person's image to suggest a cu
 
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/your-username/outfit-recommendation-api.git
+   git clone https://github.com/Ahmed5827/fashion_back.git
    cd outfit-recommendation-api
 
-2.	Create and activate a virtual environment (optional but recommended):
+2. Create and activate a virtual environment (optional but recommended):
    ```bash
    python -m venv venv  
    source venv/bin/activate
 
-3.	Install dependencies:
-    ```bash
+3. Install dependencies:
+     ``` bash
     pip install -r requirements.txt
 
-4.	Set up API keys:
+4. Set up API keys:
 	•	Replace TOKEN with your Hugging Face token for Stable Diffusion.
 	•	Replace GOOGLE_API_KEY with your Google Gemini API key.
 
